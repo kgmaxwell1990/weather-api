@@ -1,0 +1,64 @@
+body {
+    background: url(background.png) center center no-repeat fixed;
+    background-size: cover;
+
+}
+
+h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 100;
+}
+
+
+.info_title {
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.remove_top_padding_on_info_title {
+    padding-top: 10px;
+    -webkit-transition: all 0.7s ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition: all 0.7s ease-in-out;
+}
+
+
+#search_form {
+    text-align: center;
+    padding-top: 7vh;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#search_input {
+    height: 50px;
+}
+
+.display_none {
+    opacity: 0;
+}
+
+.display {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+#current_weather_div {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.name_icon_div {
+
+      vertical-align: bottom;
+
+}
+
+.name_icon_div div,
+.name_icon_div img{
+    display: inline-block;
+}
+
+#current_weather_small_info div {
+    display: inline-block;
+    margin: 10px;
+}
